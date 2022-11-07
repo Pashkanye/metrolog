@@ -1,151 +1,40 @@
-/*Обнуление*/
-* {
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-
-*,
-*:before,
-*:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-:focus,
-:active {
-	outline: none;
-}
-
-a:focus,
-a:active {
-	outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-	display: block;
-}
-
-html,
 body {
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-input,
-button,
-textarea {
-	font-family: inherit;
+.container {
+	width: 1150px;
+	margin: 0 auto;
 }
 
-input::-ms-clear {
-	display: none;
-}
-
-button {
-	cursor: pointer;
-}
-
-button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
-}
-
-a,
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-ul li {
-	list-style: none;
-}
-
-img {
-	vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-size: inherit;
-	font-weight: 400;
-}
-
-/*---------Обнуление-----------*/
-
-.page-content {
-	padding: 0 3%;
-	font-family: Helvetica, Arial, sans-serif;
-}
-
-.main-title {
-	font-size: 40px;
-}
-
-.title {
-	font-size: 30px;
-}
-
-.text {
-	font-size: 20px;
-}
-
-.header {
-	height: 70px;
-	width: 95%;
-	position: fixed;
-	left: 2.5%;
-	background-color: rgb(210, 60, 60);
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
+.nav {
+	background-color: #cc3223;
 }
 
 .nav-list {
-	width: 100%;
-	padding: 20px 50px;
-	display: inline-flex;
-	justify-content: end;
-	flex-direction: row;
-	gap: 100px;
+	margin: 0;
 }
 
-.nav-link,
-.nav-link:active {
-	display: list-item;
+.nav-item {
+	display: inline-block;
+	padding: 20px 35px;
+}
+
+.nav-link {
 	text-decoration: none;
-	color: rgb(228, 228, 228);
-	font-weight: 600;
-	font-size: 25px;
+	color: #000;
 }
 
-.nav-link:hover {
-	color: #ffffff;
-}
-
-.header-content {
-	padding: 100px 30px 0;
-	height: 700px;
-	width: 100%;
-	background-color: grey;
-	background-image: url(../assets/img/valentin.jpg), linear-gradient(to right, #ffffff, #707070);
+.hero-section {
+	height: 500px;
+	background-image: url(../assets/img/valentin.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;
+}
+
+.main-title {
+	margin: 0;
+	padding-top: 50px;
+	padding-left: 30px;
 }
